@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Operadores de Comparação</title>
+</head>
+<body>
+    <h1>Comparação</h1>
+    <hr>
+
+    <input type="number" placeholder="0" autofocus id="entrada1">
+    <select id="operador">
+        <option value="maior">></option>
+        <option value="menor"><</option>
+        <option value="maiorigual">>=</option>
+        <option value="menorigual"><=</option>
+        <option value="igual">==</option>
+        <option value="igual2">===</option>
+        <option value="diferente">!=</option>
+
+        </select>
+    <input type="number" placeholder="0" id="entrada2"> 
+    <button onclick="comparar()">=</button>
+    <input type="text" placeholder="false" disabled id="resultado">
+
+    <script src="comparacao.js"></script>
+
+
+</body>
+</html>
