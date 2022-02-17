@@ -13,7 +13,7 @@ function analisar() {
     } else if (idade >=65 && idade < 99){
         document.getElementById("resposta").value = "Você é um Idoso!";
     } else {
-        document.getElementById("resposta").value = "Funerária Já passou da hora, bom dia!";
+        document.getElementById("resposta").value = "O terror do INSS tá vivo ainda!";
     }
     
 }
