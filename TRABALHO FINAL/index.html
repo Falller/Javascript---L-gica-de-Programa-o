@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho FInal - Loja de Carros</title>
+</head>
+<body>
+    <h1>Loja de Carros</h1>
+    <hr>
+
+    <label for="">Modelo: </label>
+    <input type="text" id="modelo">
+    <br><br>
+
+    <label for="">Ano: </label>
+    <input type="number" id="ano">
+    <br><br>
+
+    <label for="">Cor: </label>
+    <input type="color" id="cor">
+    <br><br>
+
+    <label for="">Situação: </label>
+    <select id="situacao">
+        <option value="novo">Novo</option>
+        <option value="usado">Usado</option>
+        <option value="zero">Zero</option>
+    </select>
+
+    <br><br>
+    <button onclick="adicionar()">Adicionar</button>
+
+    <br><br>
+
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Modelo</td>
+                <td>Ano</td>
+                <td>Cor</td>
+                <td>Situação</td>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+            <tr>
+                <td colspan="5" style="text-align: center;">Não Existem Veículos Cadastrados!</td>
+            </tr>
+        </tbody>
+
+        
+
+    </table>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
