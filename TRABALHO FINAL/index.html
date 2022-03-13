@@ -28,7 +28,11 @@
         <option value="usado">Usado</option>
         <option value="zero">Zero</option>
     </select>
+    <br><br>
 
+    <label for="">Preço: </label>
+    <input type="number" id="preco">
+    
     <br><br>
     <button onclick="adicionar()">Adicionar</button>
 
@@ -37,20 +41,25 @@
     <table border="1" width="100%">
         <thead>
             <tr>
-                <td>ID</td>
-                <td>Modelo</td>
-                <td>Ano</td>
-                <td>Cor</td>
-                <td>Situação</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">ID</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">Modelo</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">Ano</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">Cor</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">Situação</td>
+                <td style="text-align: center; font-size: 20px; font-weight: bold">Preço</td>
             </tr>
         </thead>
         <tbody id="tabela">
             <tr>
-                <td colspan="5" style="text-align: center;">Não Existem Veículos Cadastrados!</td>
+                <td colspan="6" style="text-align: center;">Não Existem Veículos Cadastrados!</td>
             </tr>
         </tbody>
 
-        
+        <tfoot id="rodape">
+            <tr>
+                <td colspan="6" style="text-align: center;font-size: 25px; font-weight: bold">Valor total dos veículos Cadastrados</td>
+            </tr>
+        </tfoot>
 
     </table>
 
